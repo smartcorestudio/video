@@ -19,7 +19,7 @@ CKEDITOR.plugins.add('video', {
   },
   init: function(editor) {
     editor.addCommand('video', new CKEDITOR.dialogCommand('video', {
-      allowedContent: 'video[autoplay,controls,height,loop,muted,preload,!src,width]',
+      allowedContent: 'video[autoplay,controls,height,loop,muted,preload,!src,width]'
     }));
     editor.ui.addButton('Video', {
       label: editor.lang.video.button,
