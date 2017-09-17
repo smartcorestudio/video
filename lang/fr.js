@@ -7,4 +7,3 @@ CKEDITOR.plugins.setLang('video', 'fr', {
   preview: 'Aperçu',
   invalidSrc: 'L’URL est invalide ou la vidéo n’est pas lisible.'
 });
-CKEDITOR.lang.fr.fakeobjects.video = 'Vidéo';

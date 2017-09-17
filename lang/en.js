@@ -7,4 +7,3 @@ CKEDITOR.plugins.setLang('video', 'en', {
   preview: 'Preview',
   invalidSrc: 'URL is invalid or video is not playable.'
 });
-CKEDITOR.lang.en.fakeobjects.video = 'Video';

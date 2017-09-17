@@ -54,6 +54,7 @@ CKEDITOR.plugins.add('video', {
         return CKEDITOR.FILTER_SKIP_TREE;
       }
     });
+    editor.lang.fakeobjects.video = editor.lang.video.button;
   },
   afterInit: function(editor) {
     editor.on('toHtml', function(e) {
