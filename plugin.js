@@ -10,7 +10,7 @@ CKEDITOR.tools.createImageData = function(dimensions) {
 
 CKEDITOR.plugins.add('video', {
   requires: 'dialog,fakeobjects',
-  lang: 'en,fr',
+  lang: 'en,fr,ru',
   icons: 'video',
   hidpi: true,
   onLoad: function() {
